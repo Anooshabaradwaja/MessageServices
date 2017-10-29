@@ -6,7 +6,7 @@ public class MessageService {
     public static void main(String[] args) {
         Sale sale = new Sale();
         try {
-            File inputResource = new File("RawData.txt");
+            File inputResource = new File("rawData.txt");
             Scanner sc = new Scanner(inputResource);
 
             while((sc.hasNextLine())) {
